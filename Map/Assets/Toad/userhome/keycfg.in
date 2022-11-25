@@ -1,0 +1,57 @@
+; This file is used to change key bindings for Misfit Model 3D.
+;
+; To change keyboard shortcuts, add keyboard shortcuts assignments at the bottom 
+; of this file. The format for keyboard shortcuts is:
+;
+;    mm3d_command_name  MODIFIER+Key
+;
+; For a full list of MM3D command names, see keycfg.out. The keycfg.out file
+; is written at the end of every MM3D session and includes all the currently
+; assigned shortcuts (including default values and user-specified values).
+;
+; There can be as many spaces between the command name and the keyboard shortcut
+; as you want, but there cannot be any spaces in the keyboard shortcut sequence.
+;
+; Valid modifiers are:
+;
+;   Ctrl
+;   Alt
+;   Shift
+;   Meta
+;
+; Modifiers are not case-sensitive. You can have as many modifiers as you want 
+; (none, all, or any combination).
+;
+; Most keys can be entered by typing the actual key (letters, numbers, arithmatic
+; operators, etc).
+;
+; Some special keys:
+;
+;   Del
+;   PgDown
+;   PgUp
+;   Space
+;   Print   (Print Screen key)
+;   Up
+;   Down
+;   Left
+;   Right
+;   Esc
+;   Tab
+;   Enter
+;   Return
+;   Backspace
+;   Insert
+;   Ins
+;   Delete
+;   Del
+;   Home
+;   End
+;   F1 through F12
+;
+
+; Uncomment the following line to assign Shift+F1 to the Help->Contents menu item
+;viewwin_help_contents    Shift+F1
+
+; Uncomment the following line to remove the keyboard shortcut for File->Save
+;viewwin_file_save 
